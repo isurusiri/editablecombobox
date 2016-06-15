@@ -1,0 +1,17 @@
+<div class="row">
+    <form role="form" name="editDropdownForm">
+        <div class="input-group">
+            <input type="text" id="textInput" class="form-control" name="editableItem" focus-on="editableItem" ng-model="selectOptions[initIndex].name" ng-change="changeSelectedOptionInput()" ng-disabled="editPermissionForUser">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    <span class="caret"></span>
+                </button>
+                <ul id="color-dropdown-menu" class="dropdown-menu dropdown-menu-right" role="menu" style="max-height: 250px; height: 250px; overflow: auto;">
+                    <li ng-repeat="selectOption in selectOptions" class="input">
+                        <a ng-click="selectionChange(selectOption)">{{selectOption.name}}</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </form>
+</div>

@@ -8,8 +8,7 @@ editableCombobox.directive('editableCombobox', [ function (contextPanelFactory) 
                 selectOptions: "=selectOptions",
                 selectedOption: "=selectedOption",
                 initIndex: "=initIndex",
-                newRoleViewValue: "=newRoleViewValue",
-                setRoleIdInParent: "&setRoleIdInParent",
+                setSelectedIdInParent: "&setSelectedIdInParent",
                 editPermissionForUser: "=editPermissionForUser"
             },
             link: function(scope, elems, attrs) {
@@ -17,7 +16,7 @@ editableCombobox.directive('editableCombobox', [ function (contextPanelFactory) 
                 scope.selectionChange = function (newSelection) {
                     scope.initIndex = scope.selectOptions.indexOf(newSelection);
                     scope.selectedOption = newSelection.id;
-                    scope.setRoleIdInParent({id:scope.selectedOption});
+                    scope.setSelectedIdInParent({id:scope.selectedOption});
                 };
                 scope.changeSelectedOptionInput = function() {
                     if (scope.selectOptions[scope.initIndex].name === "" || scope.selectOptions[scope.initIndex].name === " " ) {
