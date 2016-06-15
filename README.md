@@ -21,7 +21,7 @@ var myapp = angular.module('awesomeApp', [ ..., editableCombobox, ... ]);
 
 An Awesome controller would be looks like:
 
-```ja
+```js
 myapp.controller('AwesomeController', ['$scope', function ($scope) {
     $scope.selectOptioins = [ {id:0, name:"Red"}, {id:1, name:'Green'}, {id:2, name:'Orange'}];
     $scope.selectedOption = 0;
