@@ -1,0 +1,16 @@
+{
+  "name": "editablecombobox",
+  "version": "1.0.0",
+  "description": "AngularJS directive for editable combobox",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "AngularJS",
+    "ComboBox",
+    "EditableComboBox"
+  ],
+  "author": "Isuru Siriwardana",
+  "license": "MIT"
+}
