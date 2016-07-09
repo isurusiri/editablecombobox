@@ -1,5 +1,9 @@
 # AngularJS editable combobox.
 
+[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg?maxAge=2592000)](https://github.com/isurusiri/editablecombobox/releases/tag/V1.0.1)
+
+[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/isurusiri/editablecombobox/releases)
+
 An AngularJS editable combobox that has following features.
 
   - A combobox that can edit its' items on the fly.
