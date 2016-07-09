@@ -1,8 +1,9 @@
 # AngularJS editable combobox.
 
-[![GitHub tag](https://img.shields.io/github/tag/strongloop/express.svg?maxAge=2592000)](https://github.com/isurusiri/editablecombobox/releases/tag/V1.0.1)
-
-[![GitHub release](https://img.shields.io/github/release/qubyte/rubidium.svg?maxAge=2592000)](https://github.com/isurusiri/editablecombobox/releases)
+[![GitHub tag](https://img.shields.io/badge/tag-V1.0.1-brightgreen.svg)](https://github.com/isurusiri/editablecombobox/releases/tag/V1.0.1)
+[![GitHub release](https://img.shields.io/badge/release-V1.0.1-blue.svg)](https://github.com/isurusiri/editablecombobox/releases)
+[![apm](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/isurusiri/editablecombobox/blob/master/LICENSE)
+[![PyPI](https://img.shields.io/pypi/status/Django.svg?maxAge=2592000)](https://github.com/isurusiri/editablecombobox)
 
 An AngularJS editable combobox that has following features.
 
